@@ -1,9 +1,14 @@
+# Steps to rename and remove clone template from git
+# 1. Rename project directory: mv old-project-name new-project-name
+# 2. Remove project from git after cloning: rm -rf .git*
+
 # Steps to setup the environment
 # 1. conda deactivate
 # 2. python3 -m venv venv
 # 3. source venv/bin/activate
 # 4. create a file called environment.yml
 # 5. conda env create -f environment.yml
+
 
 name: myenv
 channels:
