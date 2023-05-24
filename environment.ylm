@@ -1,0 +1,16 @@
+# Steps to setup the environment
+# 1. conda deactivate
+# 2. python3 -m venv venv
+# 3. source venv/bin/activate
+# 4. create a file called environment.yml
+# 5. conda env create -f environment.yml
+
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.3
+  - numpy
+  - pandas
+  - matplotlib
+  - transformers
