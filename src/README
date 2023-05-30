@@ -1,0 +1,10 @@
+Use this folder to create reusable functions for varies tasks. There could include:
+
+- utils (utility functions)
+- data (data processing functions)
+- modelling (model functions)
+- model_evaluation (model evaluation functions)
+- visualization (visualization functions)
+- reporting (reporting functions)
+- prediction (prediction functions)
+- etc.

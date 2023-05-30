@@ -1,0 +1,28 @@
+# in config.txt file list all parameters
+
+parameter1 = value1
+parameter2 = value2
+parameter3 = value3
+
+
+# in python script read the file and create a dictionary
+
+
+
+config_file = "config.txt"
+
+# Read the config file
+with open(config_file, "r") as f:
+    config_data = f.read()
+
+# Process the config data
+parameters = {}
+for line in config_data.split("\n"):
+    if line.strip():
+        key, value = line.split("=")
+        parameters[key.strip()] = value.strip()
+
+# Access the parameter values
+parameter1 = parameters.get("parameter1")
+parameter2 = parameters.get("parameter2")
+parameter3 = parameters.get("parameter3")
