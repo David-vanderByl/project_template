@@ -9,6 +9,10 @@
 # 4. create a file called environment.yml
 # 5. conda env create -f environment.yml
 
+# pip packages
+# 1. create a requirements.txt file in the same directory as environment.yml
+# 2. pip install -r requirements.txt
+
 
 name: myenv
 channels:
