@@ -1,7 +1,5 @@
-project_template
+Data Science project_template
 ==============================
-
-template for data projects
 
 Project Organization
 ------------
